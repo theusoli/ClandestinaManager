@@ -1,0 +1,156 @@
+body{
+	background-color: #111111;
+	font-family: sans-serif;
+	min-width: 1150px;
+}
+#cab1 img{ 
+float: left;
+width: 200px;
+margin: 17px 45% 0;
+}
+
+#cab1{	
+position: absolute;
+min-width: 1150px;
+background-color:#38761d;
+top: 0px;
+left: 0px;
+width:100%;
+height:75px;
+
+}
+#cab2{
+position:absolute;
+min-width: 1150px;
+left:0px;
+top:75px;
+background-color:#274e13;
+width:100%;
+height:25px;
+}
+/* texto menu2 */
+#cab2 ul{
+	text-align: center;
+	margin: 0;
+    padding:0px;
+    list-style:none;
+}
+#cab2 li { display: inline; }
+
+#cab2 ul li a { /*estilo menu2*/ 
+    padding: 2px 100px;
+    display: inline-block;    
+    text-decoration: none;
+	color: #FFFFFF;
+    
+}
+#tudo h1{
+	color: white;
+	font-size: 43px;
+}
+#tudo{
+	width: 500px;
+	position: absolute;
+	left: 440px;
+	top:130px;
+}
+.blocoRanking{
+	position:absolute;
+	width: 750px;
+	height: 220px;
+	background-color: rgba(0, 0, 0, 0.8);
+	top: 250px;
+	left: 300px;
+	border-radius: 10px;
+	box-shadow: 0 3px 0 0 #38761d;
+
+}
+.blocoHeader{
+	color:white;
+	padding:10px;
+	margin-bottom:10px;
+	margin-top:10px;
+	border-bottom: solid #38761d 2px;
+	font-size:20px;
+	font-weight:700;
+	text-align:center;
+}
+.table{
+	width:100%;
+	max-width:100%;
+	margin-bottom: 20px;
+	color:white;
+	border-spacing:0;
+	border-collapse:collapse;
+}
+.table td, th{
+	padding:0;
+}
+.table td{
+	text-align: center;
+	padding:8px;
+	vertical-align: middle;
+	border-top: 1px solid #38761d;
+}
+.table img{
+	width:40px;
+	height:40px;
+
+}
+#blocoClasTi{
+	position: absolute;
+	width: 250px;
+	height: 70px;
+	left: 40%;
+	top: 12%;
+	background-color: rgba(0, 0, 0, 0.8);
+	border-radius: 10px;
+	box-shadow: 0 3px 0 0 #38761d;
+	color: white;
+
+}
+#blocoClasTi p{
+   margin-top: 10px;
+   margin-bottom: 0;
+   margin-left: 3px;
+   padding: 0;
+}
+.blocoRanking1{
+	position:absolute;
+	width: 750px;
+	height: 220px;
+	background-color: rgba(0, 0, 0, 0.8);
+	top: 550px;
+	left: 300px;
+	border-radius: 10px;
+	box-shadow: 0 3px 0 0 #38761d;
+
+}
+#rodGeral{
+	min-width: 1150px;
+   margin: 0;
+   padding: 0;
+   position:fixed;
+   bottom:0;
+   left: 0;
+   width:100%;
+   height:35px;   /* Mesma Altura do Rodapé */
+   background:#38761d;
+   
+}
+#rodGeral ul{
+	margin: 0;
+	padding: 0;
+	text-align: left;
+    list-style:none;
+}
+#rodGeral li { display: inline; }
+
+#rodGeral ul li a { /*estilo menu2*/ 
+	margin-left:100px;
+	padding-left: 10px;
+	padding-top: 8px;
+    display: inline-block;    
+    text-decoration: none;
+	color: #FFFFFF;
+}

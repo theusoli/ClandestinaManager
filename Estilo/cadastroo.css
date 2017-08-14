@@ -1,0 +1,153 @@
+#back{
+	min-height: 100%;
+	position: absolute;
+	top: 0;
+	left:0;
+	height: 100%;
+	width:100%;
+	z-index:0;
+	
+}
+#back img{
+	min-height: 100%;
+	width:100%;
+	height:100%;
+}
+#back1{
+	min-height: 100%;
+	position:absolute;
+	top:0;
+	left:0;
+	height:100%;
+	width:100%;
+	background-color: rgba(0,0,0,0.5);
+}
+body{
+    background-color: #EEEEEE;
+    font-family: futura md bt; 
+}
+#cab1 img{ 
+    float: left;
+    width: 200px;
+    margin: 17px 45% 0;
+}
+
+#cab1{	
+    position: absolute;
+    background-color:#38761d;
+    top: 0px;
+    left: 0px;
+    width:100%;
+    height:75px;
+
+}
+#cab2{
+    position:absolute;
+    left:0px;
+    top:75px;
+    background-color:#274e13;
+    width:100%;
+    height:25px;
+}
+/* texto menu2 */
+#cab2 ul{
+    text-align: center;
+    margin: 0;
+    padding:0px;
+    list-style:none;
+}
+#cab2 li { display: inline; }
+
+#cab2 ul li a { /*estilo menu2*/ 
+    padding: 2px 200px;
+    display: inline-block;    
+    text-decoration: none;
+    color: #FFFFFF;
+
+}
+#blocoCad{
+	color: white;
+    position: absolute;
+    width: 550px;
+    height: 550px;
+    top: 20%;
+    left: 50%;
+    margin-left: -275px;
+}
+#cad{
+    position: absolute;
+    left: 50%;
+    margin-left: -125px;
+ 
+    width: 250px;
+    height: 60px;
+    border-radius: 10px;
+	background-color: rgba(0, 0, 0, 0.8);
+	border-radius: 3px;
+	border-width: 1.5px;
+	border-style: solid;
+	border-color: #38761d;
+}
+#cad p{
+    margin: 0;
+    padding-top: 09px;
+    font-size: 35px;
+    text-align: center;
+}
+#cad2{
+    position: absolute;
+    top: 80px;
+    position: absolute;
+    width: 550px;
+    height: 470px;
+    border-radius: 10px;
+	background-color: rgba(0, 0, 0, 0.8);
+	border-radius: 3px;
+	border-width: 1.5px;
+	border-style: solid;
+	border-color: #38761d;
+}
+#cadU button{
+    margin-left: 85px;
+}
+#cadU input{
+    margin-top: 15px;
+    margin-left: 85px;
+    width: 350px;
+}
+#escudo{
+    position: absolute;
+    top: 325px;
+    left: 300px;
+    border: solid white 1px;
+    height: 120px;
+    width: 120px;
+}
+#rodGeral{
+    margin: 0;
+    padding: 0;
+    position:absolute;
+    bottom:0;
+    left: 0;
+    top: 100%;
+    width:100%;
+    height:35px;   /* Mesma Altura do Rodapé */
+    background:#38761d;
+
+}
+#rodGeral ul{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    list-style:none;
+}
+#rodGeral li { display: inline; }
+
+#rodGeral ul li a { /*estilo menu2*/ 
+    margin-left:100px;
+    padding-left: 10px;
+    padding-top: 8px;
+    display: inline-block;    
+    text-decoration: none;
+    color: #FFFFFF;
+}
